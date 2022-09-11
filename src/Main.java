@@ -20,7 +20,7 @@ public class Main {
         // Input size prices array and transaction limit
         int k = 100;
 
-        int n = 1000;
+        int n = 100;
 
         // Generate random input array for computation
         int[] prices = initPrices(n);

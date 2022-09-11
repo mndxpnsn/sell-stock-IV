@@ -33,6 +33,5 @@ public class Main {
         // Print results
         System.out.println("max profit: " + maxProfit);
         System.out.println("number of operations: " + solObj.ops);
-        System.out.println("max depth: " + solObj.maxD);
     }
 }

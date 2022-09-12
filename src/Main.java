@@ -18,9 +18,9 @@ public class Main {
     public static void main(String[] args) {
 
         // Input size prices array and transaction limit
-        int k = 40;
-
         int n = 100;
+
+        int k = 40;
 
         // Generate random input array for computation
         int[] prices = initPrices(n);

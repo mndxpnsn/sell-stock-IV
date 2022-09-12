@@ -24,9 +24,9 @@ class Solution {
         if(day <= n - 1 && t < k) {
             // We have no stocks
             if(have == 0) {
-                // Buy stock on day
+                // Buy stock now
                 int prof1 = -p[day] + maxProfitRec(k, p, day + 1, t, 1, dp);
-                // Do not buy stock on day i and instead buy stock at a later day
+                // Buy stock later
                 int prof2 = maxProfitRec(k, p, day + 1, t, 0, dp);
 
                 profit = Math.max(profit, prof1);

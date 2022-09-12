@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Input size prices array and transaction limit
-        int k = 100;
+        int k = 40;
 
         int n = 100;
 
@@ -30,8 +30,13 @@ public class Main {
 
         int maxProfit = solObj.maxProfit(k, prices);
 
+        // Reference computation
+        int maxProfit2 = solObj.maxProfit2(k, prices);
+
         // Print results
         System.out.println("max profit: " + maxProfit);
         System.out.println("number of operations: " + solObj.ops);
+        System.out.println("max profit 2: " + maxProfit2);
+        System.out.println("number of operations 2: " + solObj.ops2);
     }
 }
